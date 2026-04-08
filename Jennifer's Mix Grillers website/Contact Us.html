@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Jennifer's Mixed Grillers for bookings, event catering, and enquiries.">
+    <meta name="keywords" content="contact Jennifer's Mixed Grillers, catering bookings, event enquiries">
+    <title>Jennifer's Mixed Grillers | Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/functions.js" defer></script>
+</head>
+<body>
+    <div class="site-shell">
+        <header class="header">
+            <div class="container header-inner">
+                <a class="brand" href="Home.html" aria-label="Jennifer's Mixed Grillers home">
+                    <img src="images/logo.png" alt="Jennifer's Mixed Grillers logo" loading="lazy">
+                    <div class="brand-copy">
+                        <h1>Jennifer's Mixed Grillers</h1>
+                        <p>Warm flavours. Beautiful events. Memorable experiences.</p>
+                    </div>
+                </a>
+                <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">Menu</button>
+                <nav aria-label="Primary navigation">
+                    <ul class="nav">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About Us.html">About Us</a></li>
+                        <li><a href="Services.html">Services</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="Contact Us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="page-hero">
+                <div class="container page-hero-grid">
+                    <div class="page-hero-copy reveal">
+                        <span class="eyebrow">Get in Touch</span>
+                        <h2>Let's plan something memorable.</h2>
+                        <p>
+                            For more information and bookings, feel free to contact us by phone, email, or through the enquiry form below.
+                            We would love to hear more about your event.
+                        </p>
+                    </div>
+                    <div class="page-hero-visual reveal">
+                        <img src="images/picture11.jpg" alt="Event table and catering arrangement" loading="lazy">
+                        <div class="image-overlay">
+                            <strong>Ready for Your Event</strong>
+                            Reach out and let us help turn your ideas into a beautifully catered experience.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container info-grid">
+                    <article class="contact-card reveal">
+                        <h3>Contact Details</h3>
+                        <ul class="contact-list">
+                            <li><strong>Phone:</strong> 0814017386</li>
+                            <li><strong>Email:</strong> seabelomotloung@gmail.com</li>
+                            <li><strong>Bookings:</strong> Available for different event types and celebrations</li>
+                        </ul>
+                    </article>
+
+                    <article class="contact-card reveal">
+                        <h3>Send an Enquiry</h3>
+                        <form action="https://formspree.io/f/xrbgplby" method="POST" class="enquiry-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit">Send Enquiry</button>
+                        </form>
+                        <div id="thankYouMessage" class="success-message hidden">Thank you for contacting us. We will get back to you shortly.</div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-inner">
+                <p>&copy; <span id="footerDate"></span> Jennifer's Mixed Grillers • Designed by Seabelo Motloung</p>
+                <a class="top-link" href="#top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;">Back to top</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<link rel="sitemap" type="application/xml" href="https://www.jennifersgrillers.com/sitemap.xml" />
